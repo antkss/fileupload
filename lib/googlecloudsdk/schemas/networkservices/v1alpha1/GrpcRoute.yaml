@@ -1,0 +1,88 @@
+$schema: "http://json-schema.org/draft-06/schema#"
+
+title: networkservices v1alpha1 GrpcRoute export schema
+description: A gcloud export/import command YAML validation schema.
+type: object
+required:
+- hostnames
+- name
+- rules
+additionalProperties: false
+properties:
+  COMMENT:
+    type: object
+    description: User specified info ignored by gcloud import.
+    additionalProperties: false
+    properties:
+      template-id:
+        type: string
+      region:
+        type: string
+      description:
+        type: string
+      date:
+        type: string
+      version:
+        type: string
+  UNKNOWN:
+    type: array
+    description: Unknown API fields that cannot be imported.
+    items:
+      type: string
+  description:
+    description: |-
+      A free-text description of the resource. Max length 1024 characters.
+    type: string
+  gateways:
+    description: |-
+      Gateways defines a list of gateways this GrpcRoute is attached to, as one
+      of the routing rules to route the requests served by the gateway. Each
+      gateway reference should match the pattern:
+      `projects/*/locations/global/gateways/`
+    type: array
+    items:
+      type: string
+  hostnames:
+    description: |-
+      If a port is specified, then gRPC clients must use the channel URI
+      with the port to match this rule (i.e. "xds:///service:123"),
+      otherwise they must supply the URI without a port (i.e.
+      "xds:///service").
+    type: array
+    items:
+      type: string
+  labels:
+    description: |-
+      Set of label tags associated with the GrpcRoute resource.
+    $ref: LabelsValue.yaml
+  meshes:
+    description: |-
+      Meshes defines a list of meshes this GrpcRoute is attached to, as
+      one of the routing rules to route the requests served by the mesh.
+      Each mesh reference should match the pattern:
+      `projects/*/locations/global/meshes/`
+    type: array
+    items:
+      type: string
+  name:
+    description: |-
+      Name of the GrpcRoute resource. It matches pattern
+      `projects/*/locations/global/grpcRoutes/`
+    type: string
+  routers:
+    description: |-
+      Routers define a list of routers this GrpcRoute should be
+      served by. Each router reference should match the pattern:
+      `projects/*/locations/global/routers/`
+    type: array
+    items:
+      type: string
+  rules:
+    description: |-
+      A list of detailed rules defining how to route traffic.
+      Within a single GrpcRoute, the GrpcRoute.RouteAction
+      associated with the first matching GrpcRoute.RouteRule
+      will be executed. At least one rule must be supplied.
+    type: array
+    items:
+      $ref: GrpcRouteRouteRule.yaml

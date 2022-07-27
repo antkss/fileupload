@@ -1,0 +1,46 @@
+release_tracks: [ALPHA, BETA, GA]
+help_text:
+  brief: Create a Pub/Sub Lite subscription.
+  description: Create a Pub/Sub Lite subscription.
+  examples: |
+    To create a Pub/Sub Lite subscription, run:
+
+        $ {command} mysubscription \
+            --location=us-central1-a \
+            --topic=mytopic
+
+    To create a Pub/Sub Lite subscription at the offset of the oldest retained message, run:
+
+        $ {command} mysubscription \
+            --location=us-central1-a \
+            --topic=mytopic \
+            --starting-offset=beginning
+
+request:
+  collection: pubsublite.admin.projects.locations.subscriptions
+  method: create
+  modify_request_hooks:
+  - googlecloudsdk.command_lib.pubsub.lite_util:UpdateAdminRequest
+  - googlecloudsdk.command_lib.pubsub.lite_util:AddSubscriptionTopicResource
+  - googlecloudsdk.command_lib.pubsub.lite_util:UpdateSkipBacklogField
+
+arguments:
+  resource:
+    help_text: Identifies the Cloud zone this command will be executed on.
+    spec: !REF googlecloudsdk.command_lib.pubsub.resources:location
+    is_parent_resource: true
+    is_positional: false
+    command_level_fallthroughs:
+      location:
+      - arg_name: 'zone'
+
+  params:
+  - _REF_: googlecloudsdk.command_lib.pubsub.flags:zone
+  - _REF_: googlecloudsdk.command_lib.pubsub.flags:subscription-name
+    required: true
+  - _REF_: googlecloudsdk.command_lib.pubsub.flags:subscription-topic-name
+    required: true
+  - _REF_: googlecloudsdk.command_lib.pubsub.flags:delivery-requirement
+    default: deliver-immediately
+  - _REF_: googlecloudsdk.command_lib.pubsub.flags:starting-offset
+    default: end

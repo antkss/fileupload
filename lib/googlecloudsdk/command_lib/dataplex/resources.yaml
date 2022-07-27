@@ -1,0 +1,145 @@
+project:
+  name: project
+  collection: dataplex.projects
+  attributes:
+  - &project
+    parameter_name: projectsId
+    attribute_name: project
+    help: |
+      The Cloud project name to use.
+    property: core/project
+
+location:
+  name: location
+  collection: dataplex.projects.locations
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - &location
+    parameter_name: locationsId
+    attribute_name: location
+    help: |
+      The location of the Dataplex resource.
+    property: dataplex/location
+
+lake:
+  name: lake
+  collection: dataplex.projects.locations.lakes
+  request_id_field: lakeId
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - &lake
+    parameter_name: lakesId
+    attribute_name: lake
+    help: |
+      The identifier of the Dataplex lake resource.
+
+zone:
+  name: zone
+  collection: dataplex.projects.locations.lakes.zones
+  request_id_field: zoneId
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - &zone
+    parameter_name: zonesId
+    attribute_name: zone
+    help: |
+      The identifier of the Dataplex zone resource.
+
+asset:
+  name: asset
+  collection: dataplex.projects.locations.lakes.zones.assets
+  request_id_field: assetId
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - *zone
+  - &asset
+    parameter_name: assetsId
+    attribute_name: asset
+    help: |
+      The identifier of the Dataplex asset resource.
+
+task:
+  name: task
+  collection: dataplex.projects.locations.lakes.tasks
+  request_id_field: taskId
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - &task
+    parameter_name: tasksId
+    attribute_name: task
+    help: |
+      The identifier of the Dataplex task resource.
+
+job:
+  name: job
+  collection: dataplex.projects.locations.lakes.tasks.jobs
+  request_id_field: jobID
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - *task
+  - &job
+    parameter_name: jobsId
+    attribute_name: job
+    help: |
+      The job_id of the Job running a particular Task in Dataplex.
+
+environment:
+  name: environment
+  collection: dataplex.projects.locations.lakes.environments
+  request_id_field: environmentID
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - &environment
+    parameter_name: environmentsId
+    attribute_name: environment
+    help: |
+      The environment_id of a particular Environment in Dataplex.
+
+session:
+  name: session
+  collection: dataplex.projects.locations.lakes.environments.sessions
+  request_id_field: sessionID
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - *environment
+  - &session
+    parameter_name: sessionsId
+    attribute_name: session
+    help: |
+      The session_id of a particular Session of an Environment in Dataplex.
+
+content:
+  name: content
+  collection: dataplex.projects.locations.lakes.contentitems
+  request_id_field: contentId
+  disable_auto_completers: false
+  attributes:
+  - *project
+  - *location
+  - *lake
+  - &content
+    parameter_name: contentitemsId
+    attribute_name: content
+    help: |
+      The content_id for the Content Resource of the Dataplex service.

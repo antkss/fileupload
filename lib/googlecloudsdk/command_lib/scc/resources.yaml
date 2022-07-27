@@ -1,0 +1,103 @@
+organization:
+  name: organization
+  collection: securitycenter.organizations
+  attributes:
+  - &organization
+    parameter_name: organizationsId
+    attribute_name: organization
+    help: |
+      (Optional) If the full resource name isn't provided e.g. organizations/123, then provide the
+      organization id which is the suffix of the organization. Example: organizations/123, the id is
+      123.
+    fallthroughs:
+    - hook: googlecloudsdk.command_lib.scc.hooks:GetDefaultOrganization
+      hint: Set the organization property in configuration using `gcloud config set scc/organization`
+        if it is not specified in command line.
+  disable_auto_completers: false
+
+parent:
+  name: parent
+  collection: securitycenter.organizations
+  attributes:
+  - &parent
+    parameter_name: organizationsId
+    attribute_name: organization
+    help: |
+      (Optional) If the full resource name isn't provided for an organization
+      e.g. organizations/123, then provide the organization id which is the suffix of the
+      organization. Otherwise, provide the full parent parent resource.
+      Examples: organization/123, 123, projects/456, folders/789.
+    fallthroughs:
+    - hook: googlecloudsdk.command_lib.scc.hooks:GetDefaultParent
+      hint: Set the parent property in configuration using `gcloud config set scc/parent`
+        if it is not specified in command line.
+  disable_auto_completers: false
+
+asset:
+  name: asset
+  collection: securitycenter.organizations.assets
+  attributes:
+  - *organization
+  - &asset
+    parameter_name: assetsId
+    attribute_name: asset
+    help: |
+      (Optional) If the full resource name isn't provided e.g. organizations/123/assets/456, then
+      provide the asset id which is the suffix of the asset. Example: organizations/123/assets/456,
+      the id is 456.
+  disable_auto_completers: false
+
+source:
+  name: source
+  collection: securitycenter.organizations.sources
+  attributes:
+  - *organization
+  - &source
+    parameter_name: sourcesId
+    attribute_name: source
+    help: |
+      (Optional) If the full resource name isn't provided e.g. organizations/123/sources/456, then
+      provide the source id which is the suffix of the source.
+      Example: organizations/123/sources/456, the id is 456.
+  disable_auto_completers: false
+
+finding:
+  name: finding
+  collection: securitycenter.organizations.sources.findings
+  attributes:
+  - *organization
+  - *source
+  - &finding
+    parameter_name: findingId
+    attribute_name: finding
+    help: |
+      (Optional) If the full resource name isn't provided e.g.
+      organizations/123/sources/456/findings/789, then provide the finding id which is the suffix of
+      the finding. Example: organizations/123/sources/456/findings/789, the id is 789.
+  disable_auto_completers: false
+
+operation:
+  name: operation
+  collection: securitycenter.organizations.operations
+  request_id_field: operationId
+  attributes:
+  - *organization
+  - &operation
+    parameter_name: operationsId
+    attribute_name: operation
+    help: |
+     Cloud SCC (Security Command Center) long running operation.
+
+notification:
+  name: notification
+  collection: securitycenter.organizations.notificationConfigs
+  attributes:
+  - *organization
+  - &notification
+    parameter_name: notificationConfigsId
+    attribute_name: notification
+    help: |
+      (Optional) If the full resource name isn't provided e.g. organizations/123/notificationConfigs/456, then
+      provide the notification id which is the suffix of the notification config.
+      Example: organizations/123/notificationConfigs/456, the id is 456.
+  disable_auto_completers: false

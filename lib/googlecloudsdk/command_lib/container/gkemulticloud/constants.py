@@ -1,0 +1,90 @@
+# -*- coding: utf-8 -*- #
+# Copyright 2021 Google LLC. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+"""Constants for gkemulticloud."""
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import unicode_literals
+
+MAX_LRO_POLL_INTERVAL_MS = 10000
+
+# MAX_LRO_WAIT_MS is the limit on the amount of time to poll LROs.
+# Note that gkemulticloud LRO has its own timeout.
+# This value is not None/unbounded to safeguard against (unlikely) broken
+# control flow in which we poll indefinitely.
+MAX_LRO_WAIT_MS = 43200000  # 12 hours
+
+AWS = 'AWS'
+
+AZURE = 'Azure'
+
+LRO_KIND = 'Operation'
+
+AZURE_CLIENT_KIND = 'Azure Client'
+
+AZURE_CLUSTER_KIND = 'Azure Cluster'
+
+AZURE_NODEPOOL_KIND = 'Azure Node Pool'
+
+AWS_CLUSTER_KIND = 'AWS Cluster'
+
+AWS_NODEPOOL_KIND = 'AWS Node Pool'
+
+SYSTEM = 'SYSTEM'
+
+WORKLOAD = 'WORKLOAD'
+
+AWS_CLUSTERS_FORMAT = """\
+  table(
+    name.basename(),
+    awsRegion,
+    controlPlane.version:label=CONTROL_PLANE_VERSION,
+    controlPlane.instanceType,
+    state)"""
+
+AWS_NODEPOOLS_FORMAT = """\
+  table(
+    name.basename(),
+    version:label=NODE_VERSION,
+    config.instanceType,
+    autoscaling.minNodeCount.yesno(no='0'):label=MIN_NODES,
+    autoscaling.maxNodeCount:label=MAX_NODES,
+    state)"""
+
+AZURE_CLUSTERS_FORMAT = """
+  table(
+    name.segment(-1):label=NAME,
+    azureRegion,
+    controlPlane.version:label=CONTROL_PLANE_VERSION,
+    endpoint:label=CONTROL_PLANE_IP,
+    controlPlane.vmSize,
+    state)
+"""
+
+AZURE_CLIENT_FORMAT = """
+  table(
+    name.segment(-1),
+    tenantId,
+    applicationId)
+"""
+
+AZURE_NODE_POOL_FORMAT = """
+  table(name.segment(-1),
+    version:label=NODE_VERSION,
+    config.vmSize,
+    autoscaling.minNodeCount.yesno(no='0'):label=MIN_NODES,
+    autoscaling.maxNodeCount:label=MAX_NODES,
+    state)
+"""
