@@ -1,0 +1,594 @@
+2023-10-16 21:08:28,777 DEBUG    root            Running [gcloud] with arguments: [--help: "None"]
+2023-10-16 21:08:28,777 DEBUG    root            Loaded Command Group: ['gcloud', 'topic']
+2023-10-16 21:08:28,779 DEBUG    root            Loaded Command Group: ['gcloud', 'anthos']
+2023-10-16 21:08:28,780 DEBUG    root            Loaded Command Group: ['gcloud', 'org_policies']
+2023-10-16 21:08:28,781 DEBUG    root            Loaded Command Group: ['gcloud', 'iap']
+2023-10-16 21:08:28,782 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/error_reporting]
+2023-10-16 21:08:28,782 DEBUG    root            Loaded Command Group: ['gcloud', 'datastream']
+2023-10-16 21:08:28,784 DEBUG    root            Loaded Command Group: ['gcloud', 'pubsub']
+2023-10-16 21:08:28,785 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2023-10-16 21:08:28,786 DEBUG    root            Loaded Command Group: ['gcloud', 'emulators']
+2023-10-16 21:08:28,789 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/code]
+2023-10-16 21:08:28,790 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/commerce_procurement]
+2023-10-16 21:08:28,790 DEBUG    root            Loaded Command Group: ['gcloud', 'network_security']
+2023-10-16 21:08:28,791 DEBUG    root            Loaded Command Group: ['gcloud', 'source']
+2023-10-16 21:08:28,795 DEBUG    root            Loaded Command Group: ['gcloud', 'info']
+2023-10-16 21:08:28,796 DEBUG    root            Loaded Command Group: ['gcloud', 'healthcare']
+2023-10-16 21:08:28,797 DEBUG    root            Loaded Command Group: ['gcloud', 'recaptcha']
+2023-10-16 21:08:28,798 DEBUG    root            Loaded Command Group: ['gcloud', 'network_connectivity']
+2023-10-16 21:08:28,799 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/batch]
+2023-10-16 21:08:28,814 DEBUG    root            Loaded Command Group: ['gcloud', 'ai_platform']
+2023-10-16 21:08:28,815 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/dialogflow]
+2023-10-16 21:08:28,815 DEBUG    root            Loaded Command Group: ['gcloud', 'endpoints']
+2023-10-16 21:08:28,816 DEBUG    root            Loaded Command Group: ['gcloud', 'recommender']
+2023-10-16 21:08:28,817 DEBUG    root            Loaded Command Group: ['gcloud', 'workflows']
+2023-10-16 21:08:28,818 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2023-10-16 21:08:28,819 DEBUG    root            Loaded Command Group: ['gcloud', 'dataproc']
+2023-10-16 21:08:28,823 DEBUG    root            Loaded Command Group: ['gcloud', 'survey']
+2023-10-16 21:08:28,824 DEBUG    root            Loaded Command Group: ['gcloud', 'policy_intelligence']
+2023-10-16 21:08:28,825 DEBUG    root            Loaded Command Group: ['gcloud', 'organizations']
+2023-10-16 21:08:28,826 DEBUG    root            Loaded Command Group: ['gcloud', 'edge_cloud']
+2023-10-16 21:08:28,827 DEBUG    root            Loaded Command Group: ['gcloud', 'billing']
+2023-10-16 21:08:28,828 DEBUG    root            Loaded Command Group: ['gcloud', 'iot']
+2023-10-16 21:08:28,829 DEBUG    root            Loaded Command Group: ['gcloud', 'resource_settings']
+2023-10-16 21:08:28,830 DEBUG    root            Loaded Command Group: ['gcloud', 'app']
+2023-10-16 21:08:28,831 DEBUG    root            Loaded Command Group: ['gcloud', 'bms']
+2023-10-16 21:08:28,832 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/data_fusion]
+2023-10-16 21:08:28,833 DEBUG    root            Loaded Command Group: ['gcloud', 'privateca']
+2023-10-16 21:08:28,834 DEBUG    root            Loaded Command Group: ['gcloud', 'eventarc']
+2023-10-16 21:08:28,835 DEBUG    root            Loaded Command Group: ['gcloud', 'run']
+2023-10-16 21:08:28,837 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-10-16 21:08:28,838 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/dlp]
+2023-10-16 21:08:28,839 DEBUG    root            Loaded Command Group: ['gcloud', 'redis']
+2023-10-16 21:08:28,841 DEBUG    root            Loaded Command Group: ['gcloud', 'functions']
+2023-10-16 21:08:28,842 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/datapipelines]
+2023-10-16 21:08:28,842 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/genomics]
+2023-10-16 21:08:28,842 DEBUG    root            Loaded Command Group: ['gcloud', 'dns']
+2023-10-16 21:08:28,844 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/web_security_scanner]
+2023-10-16 21:08:28,844 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/workstations]
+2023-10-16 21:08:28,844 DEBUG    root            Loaded Command Group: ['gcloud', 'firestore']
+2023-10-16 21:08:28,845 DEBUG    root            Loaded Command Group: ['gcloud', 'deployment_manager']
+2023-10-16 21:08:28,846 DEBUG    root            Loaded Command Group: ['gcloud', 'access_approval']
+2023-10-16 21:08:28,847 DEBUG    root            Loaded Command Group: ['gcloud', 'notebooks']
+2023-10-16 21:08:28,848 DEBUG    root            Loaded Command Group: ['gcloud', 'cloud_shell']
+2023-10-16 21:08:28,850 DEBUG    root            Loaded Command Group: ['gcloud', 'debug']
+2023-10-16 21:08:28,851 DEBUG    root            Loaded Command Group: ['gcloud', 'policy_troubleshoot']
+2023-10-16 21:08:28,852 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/resource_config]
+2023-10-16 21:08:28,852 DEBUG    root            Loaded Command Group: ['gcloud', 'deploy']
+2023-10-16 21:08:28,853 DEBUG    root            Loaded Command Group: ['gcloud', 'domains']
+2023-10-16 21:08:28,855 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2023-10-16 21:08:28,857 DEBUG    root            Loaded Command Group: ['gcloud', 'transcoder']
+2023-10-16 21:08:28,858 DEBUG    root            Loaded Command Group: ['gcloud', 'ids']
+2023-10-16 21:08:28,859 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/lifesciences]
+2023-10-16 21:08:28,859 DEBUG    root            Loaded Command Group: ['gcloud', 'certificate_manager']
+2023-10-16 21:08:28,860 DEBUG    root            Loaded Command Group: ['gcloud', 'assured']
+2023-10-16 21:08:28,861 DEBUG    root            Loaded Command Group: ['gcloud', 'cheat_sheet']
+2023-10-16 21:08:28,862 DEBUG    root            Loaded Command Group: ['gcloud', 'network_services']
+2023-10-16 21:08:28,863 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/remote_build_execution]
+2023-10-16 21:08:28,864 DEBUG    root            Loaded Command Group: ['gcloud', 'composer']
+2023-10-16 21:08:28,865 DEBUG    root            Loaded Command Group: ['gcloud', 'version']
+2023-10-16 21:08:28,866 DEBUG    root            Loaded Command Group: ['gcloud', 'iam']
+2023-10-16 21:08:28,867 DEBUG    root            Loaded Command Group: ['gcloud', 'data_catalog']
+2023-10-16 21:08:28,868 DEBUG    root            Loaded Command Group: ['gcloud', 'database_migration']
+2023-10-16 21:08:28,882 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/events]
+2023-10-16 21:08:28,924 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/interactive]
+2023-10-16 21:08:28,924 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/publicca]
+2023-10-16 21:08:28,924 DEBUG    root            Loaded Command Group: ['gcloud', 'scheduler']
+2023-10-16 21:08:28,926 DEBUG    root            Loaded Command Group: ['gcloud', 'apigee']
+2023-10-16 21:08:28,927 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/trace]
+2023-10-16 21:08:28,928 DEBUG    root            Loaded Command Group: ['gcloud', 'builds']
+2023-10-16 21:08:28,929 DEBUG    root            Loaded Command Group: ['gcloud', 'filestore']
+2023-10-16 21:08:28,930 DEBUG    root            Loaded Command Group: ['gcloud', 'api_gateway']
+2023-10-16 21:08:28,931 DEBUG    root            Loaded Command Group: ['gcloud', 'monitoring']
+2023-10-16 21:08:28,932 DEBUG    root            Loaded Command Group: ['gcloud', 'dataflow']
+2023-10-16 21:08:28,933 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/blueprints]
+2023-10-16 21:08:28,952 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2023-10-16 21:08:28,954 DEBUG    root            Loaded Command Group: ['gcloud', 'metastore']
+2023-10-16 21:08:28,956 DEBUG    root            Loaded Command Group: ['gcloud', 'kms']
+2023-10-16 21:08:28,957 DEBUG    root            Loaded Command Group: ['gcloud', 'tasks']
+2023-10-16 21:08:28,958 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/terraform]
+2023-10-16 21:08:28,958 DEBUG    root            Loaded Command Group: ['gcloud', 'ml_engine']
+2023-10-16 21:08:28,959 DEBUG    root            Loaded Command Group: ['gcloud', 'spanner']
+2023-10-16 21:08:28,960 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/storage]
+2023-10-16 21:08:28,961 DEBUG    root            Loaded Command Group: ['gcloud', 'datastore']
+2023-10-16 21:08:28,962 DEBUG    root            Loaded Command Group: ['gcloud', 'workspace_add_ons']
+2023-10-16 21:08:28,963 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/kuberun]
+2023-10-16 21:08:28,963 DEBUG    root            Loaded Command Group: ['gcloud', 'ml']
+2023-10-16 21:08:28,964 DEBUG    root            Loaded Command Group: ['gcloud', 'scc']
+2023-10-16 21:08:28,965 DEBUG    root            Loaded Command Group: ['gcloud', 'firebase']
+2023-10-16 21:08:28,966 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/bq]
+2023-10-16 21:08:28,968 DEBUG    root            Loaded Command Group: ['gcloud', 'help']
+2023-10-16 21:08:28,969 DEBUG    root            Loaded Command Group: ['gcloud', 'memcache']
+2023-10-16 21:08:28,970 DEBUG    root            Loaded Command Group: ['gcloud', 'meta']
+2023-10-16 21:08:28,971 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/runtime_config]
+2023-10-16 21:08:28,972 DEBUG    root            Loaded Command Group: ['gcloud', 'vmware']
+2023-10-16 21:08:28,974 DEBUG    root            Loaded Command Group: ['gcloud', 'artifacts']
+2023-10-16 21:08:28,978 DEBUG    root            Loaded Command Group: ['gcloud', 'docker']
+2023-10-16 21:08:28,980 DEBUG    root            Loaded Command Group: ['gcloud', 'secrets']
+2023-10-16 21:08:28,982 DEBUG    root            Loaded Command Group: ['gcloud', 'bigtable']
+2023-10-16 21:08:28,984 DEBUG    root            Loaded Command Group: ['gcloud', 'game']
+2023-10-16 21:08:28,986 DEBUG    root            Loaded Command Group: ['gcloud', 'active_directory']
+2023-10-16 21:08:28,988 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/beyondcorp]
+2023-10-16 21:08:28,988 DEBUG    root            Loaded Command Group: ['gcloud', 'logging']
+2023-10-16 21:08:28,990 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/alloydb]
+2023-10-16 21:08:28,991 DEBUG    root            Loaded Command Group: ['gcloud', 'identity']
+2023-10-16 21:08:28,993 DEBUG    root            Loaded Command Group: ['gcloud', 'dataplex']
+2023-10-16 21:08:28,995 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/media]
+2023-10-16 21:08:28,995 DEBUG    root            Loaded Command Group: ['gcloud', 'asset']
+2023-10-16 21:08:28,997 DEBUG    root            Loaded Command Group: ['gcloud', 'transfer']
+2023-10-16 21:08:28,999 DEBUG    root            Loaded Command Group: ['gcloud', 'sql']
+2023-10-16 21:08:29,002 DEBUG    root            Loaded Command Group: ['gcloud', 'ai']
+2023-10-16 21:08:29,004 DEBUG    root            No implementation for release track [GA] for element: [/home/as/cac/fileupload/lib/surface/immersive_stream]
+2023-10-16 21:08:29,006 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-10-16 21:08:29,008 DEBUG    root            Loaded Command Group: ['gcloud', 'essential_contacts']
+2023-10-16 21:08:29,010 DEBUG    root            Loaded Command Group: ['gcloud', 'resource_manager']
+2023-10-16 21:08:29,012 DEBUG    root            Loaded Command Group: ['gcloud', 'network_management']
+2023-10-16 21:08:29,014 DEBUG    root            Loaded Command Group: ['gcloud', 'feedback']
+2023-10-16 21:08:29,016 DEBUG    root            Loaded Command Group: ['gcloud', 'access_context_manager']
+2023-10-16 21:08:29,018 DEBUG    root            Loaded Command Group: ['gcloud', 'services']
+2023-10-16 21:08:29,020 DEBUG    root            Loaded Command Group: ['gcloud', 'service_directory']
+2023-10-16 21:08:29,022 DEBUG    root            Loaded Command Group: ['gcloud', 'edge_cache']
+2023-10-16 21:08:29,109 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2023-10-16 21:08:29,121 DEBUG    root            Loaded Command Group: ['gcloud', 'topic', 'flags_file']
+2023-10-16 21:08:29,129 DEBUG    root            Loaded Command Group: ['gcloud', 'topic', 'formats']
+2023-10-16 21:08:29,134 DEBUG    root            Loaded Command Group: ['gcloud', 'topic', 'configurations']
+2023-10-16 21:08:29,155 INFO     ___FILE_ONLY___ NAME
+    gcloud - manage Google Cloud resources and developer workflow
+
+SYNOPSIS
+    gcloud GROUP | COMMAND [--account=ACCOUNT]
+        [--billing-project=BILLING_PROJECT] [--configuration=CONFIGURATION]
+        [--flags-file=YAML_FILE] [--flatten=[KEY,...]] [--format=FORMAT]
+        [--help] [--project=PROJECT_ID] [--quiet, -q]
+        [--verbosity=VERBOSITY; default="warning"] [--version, -v] [-h]
+        [--access-token-file=ACCESS_TOKEN_FILE]
+        [--impersonate-service-account=SERVICE_ACCOUNT_EMAILS] [--log-http]
+        [--trace-token=TRACE_TOKEN] [--no-user-output-enabled]
+
+DESCRIPTION
+    The gcloud CLI manages authentication, local configuration, developer
+    workflow, and interactions with the Google Cloud APIs.
+
+    For a quick introduction to the gcloud CLI, a list of commonly used
+    commands, and a look at how these commands are structured, run gcloud
+    cheat-sheet or see the `gcloud` CLI cheat sheet
+    (https://cloud.google.com/sdk/docs/cheatsheet).
+
+GLOBAL FLAGS
+     --account=ACCOUNT
+        Google Cloud user account to use for invocation. Overrides the default
+        core/account property value for this command invocation.
+
+     --billing-project=BILLING_PROJECT
+        The Google Cloud project that will be charged quota for operations
+        performed in gcloud. If you need to operate on one project, but need
+        quota against a different project, you can use this flag to specify the
+        billing project. If both billing/quota_project and --billing-project
+        are specified, --billing-project takes precedence. Run $ gcloud config
+        set --help to see more information about billing/quota_project.
+
+     --configuration=CONFIGURATION
+        The configuration to use for this command invocation. For more
+        information on how to use configurations, run: gcloud topic
+        configurations. You can also use the CLOUDSDK_ACTIVE_CONFIG_NAME
+        environment variable to set the equivalent of this flag for a terminal
+        session.
+
+     --flags-file=YAML_FILE
+        A YAML or JSON file that specifies a --flag:value dictionary. Useful
+        for specifying complex flag values with special characters that work
+        with any command interpreter. Additionally, each --flags-file arg is
+        replaced by its constituent flags. See $ gcloud topic flags-file for
+        more information.
+
+     --flatten=[KEY,...]
+        Flatten name[] output resource slices in KEY into separate records for
+        each item in each slice. Multiple keys and slices may be specified.
+        This also flattens keys for --format and --filter. For example,
+        --flatten=abc.def flattens abc.def[].ghi references to abc.def.ghi. A
+        resource record containing abc.def[] with N elements will expand to N
+        records in the flattened output. This allows us to specify what
+        resource-key the filter will operate on. This flag interacts with other
+        flags that are applied in this order: --flatten, --sort-by, --filter,
+        --limit.
+
+     --format=FORMAT
+        Set the format for printing command output resources. The default is a
+        command-specific human-friendly output format. The supported formats
+        are: config, csv, default, diff, disable, flattened, get, json, list,
+        multi, none, object, table, text, value, yaml. For more details run $
+        gcloud topic formats.
+
+     --help
+        Display detailed help.
+
+     --project=PROJECT_ID
+        The Google Cloud project ID to use for this invocation. If omitted,
+        then the current project is assumed; the current project can be listed
+        using gcloud config list --format='text(core.project)' and can be set
+        using gcloud config set project PROJECTID.
+
+        --project and its fallback core/project property play two roles in the
+        invocation. It specifies the project of the resource to operate on. It
+        also specifies the project for API enablement check, quota, and
+        billing. To specify a different project for quota and billing, use
+        --billing-project or billing/quota_project property.
+
+     --quiet, -q
+        Disable all interactive prompts when running gcloud commands. If input
+        is required, defaults will be used, or an error will be raised.
+
+        Overrides the default core/disable_prompts property value for this
+        command invocation. This is equivalent to setting the environment
+        variable CLOUDSDK_CORE_DISABLE_PROMPTS to 1.
+
+     --verbosity=VERBOSITY; default="warning"
+        Override the default verbosity for this command. Overrides the default
+        core/verbosity property value for this command invocation. VERBOSITY
+        must be one of: debug, info, warning, error, critical, none.
+
+     --version, -v
+        Print version information and exit. This flag is only available at the
+        global level.
+
+     -h
+        Print a summary help and exit.
+
+OTHER FLAGS
+     --access-token-file=ACCESS_TOKEN_FILE
+        A file path to read the access token. Use this flag to authenticate
+        gcloud with an access token. The credentials of the active account (if
+        exists) will be ignored. The file should only contain an access token
+        with no other information. Overrides the default auth/access_token_file
+        property value for this command invocation.
+
+     --impersonate-service-account=SERVICE_ACCOUNT_EMAILS
+        For this gcloud invocation, all API requests will be made as the given
+        service account or target service account in an impersonation
+        delegation chain instead of the currently selected account. You can
+        specify either a single service account as the impersonator, or a
+        comma-separated list of service accounts to create an impersonation
+        delegation chain. The impersonation is done without needing to create,
+        download, and activate a key for the service account or accounts.
+
+        In order to make API requests as a service account, your currently
+        selected account must have an IAM role that includes the
+        iam.serviceAccounts.getAccessToken permission for the service account
+        or accounts.
+
+        The roles/iam.serviceAccountTokenCreator role has the
+        iam.serviceAccounts.getAccessToken permission. You can also create a
+        custom role.
+
+        You can specify a list of service accounts, separated with commas. This
+        creates an impersonation delegation chain in which each service account
+        delegates its permissions to the next service account in the chain.
+        Each service account in the list must have the
+        roles/iam.serviceAccountTokenCreator role on the next service account
+        in the list. For example, when --impersonate-service-account=
+        SERVICE_ACCOUNT_1,SERVICE_ACCOUNT_2, the active account must have the
+        roles/iam.serviceAccountTokenCreator role on SERVICE_ACCOUNT_1, which
+        must have the roles/iam.serviceAccountTokenCreator role on
+        SERVICE_ACCOUNT_2. SERVICE_ACCOUNT_1 is the impersonated service
+        account and SERVICE_ACCOUNT_2 is the delegate.
+
+        Overrides the default auth/impersonate_service_account property value
+        for this command invocation.
+
+     --log-http
+        Log all HTTP server requests and responses to stderr. Overrides the
+        default core/log_http property value for this command invocation.
+
+     --trace-token=TRACE_TOKEN
+        Token used to route traces of service requests for investigation of
+        issues. Overrides the default core/trace_token property value for this
+        command invocation.
+
+     --user-output-enabled
+        Print user intended output to the console. Overrides the default
+        core/user_output_enabled property value for this command invocation.
+        Use --no-user-output-enabled to disable.
+
+GROUPS
+    GROUP is one of the following:
+
+     access-approval
+        Manage Access Approval requests and settings.
+
+     access-context-manager
+        Manage Access Context Manager resources.
+
+     active-directory
+        Manage Managed Microsoft AD resources.
+
+     ai
+        Manage entities in Vertex AI.
+
+     ai-platform
+        Manage AI Platform jobs and models.
+
+     anthos
+        Anthos command Group.
+
+     api-gateway
+        Manage Cloud API Gateway resources.
+
+     apigee
+        Manage Apigee resources.
+
+     app
+        Manage your App Engine deployments.
+
+     artifacts
+        Manage Artifact Registry resources.
+
+     asset
+        Manage the Cloud Asset Inventory.
+
+     assured
+        Read and manipulate Assured Workloads data controls.
+
+     auth
+        Manage oauth2 credentials for the Google Cloud CLI.
+
+     bigtable
+        Manage your Cloud Bigtable storage.
+
+     billing
+        Manage billing accounts and associate them with projects.
+
+     bms
+        Manage Bare Metal Solution resources.
+
+     builds
+        Create and manage builds for Google Cloud Build.
+
+     certificate-manager
+        Manage SSL certificates for your Google Cloud projects.
+
+     cloud-shell
+        Manage Google Cloud Shell.
+
+     components
+        List, install, update, or remove Google Cloud CLI components.
+
+     composer
+        Create and manage Cloud Composer Environments.
+
+     compute
+        Create and manipulate Compute Engine resources.
+
+     config
+        View and edit Google Cloud CLI properties.
+
+     container
+        Deploy and manage clusters of machines for running containers.
+
+     data-catalog
+        Manage Data Catalog resources.
+
+     database-migration
+        Manage Database Migration Service resources.
+
+     dataflow
+        Manage Google Cloud Dataflow resources.
+
+     dataplex
+        Manage Dataplex resources.
+
+     dataproc
+        Create and manage Google Cloud Dataproc clusters and jobs.
+
+     datastore
+        Manage your Cloud Datastore resources.
+
+     datastream
+        Manage Cloud Datastream resources.
+
+     debug
+        Commands for interacting with the Cloud Debugger.
+
+     deploy
+        Create and manage Google Cloud Deploy resources.
+
+     deployment-manager
+        Manage deployments of cloud resources.
+
+     dns
+        Manage your Cloud DNS managed-zones and record-sets.
+
+     domains
+        Manage domains for your Google Cloud projects.
+
+     edge-cloud
+        Manage edge-cloud resources.
+
+     emulators
+        Set up your local development environment using emulators.
+
+     endpoints
+        Create, enable and manage API services.
+
+     essential-contacts
+        Manage Essential Contacts.
+
+     eventarc
+        Manage Eventarc resources.
+
+     filestore
+        Create and manipulate Filestore resources.
+
+     firebase
+        Work with Google Firebase.
+
+     firestore
+        Manage your Cloud Firestore resources.
+
+     functions
+        Manage Google Cloud Functions.
+
+     game
+        Managed Cloud Game Services.
+
+     healthcare
+        Manage Cloud Healthcare resources.
+
+     iam
+        Manage IAM service accounts and keys.
+
+     iap
+        Manage IAP policies.
+
+     identity
+        Manage Cloud Identity Groups and Memberships resources.
+
+     ids
+        Manage Cloud IDS.
+
+     iot
+        Manage Cloud IoT resources.
+
+     kms
+        Manage cryptographic keys in the cloud.
+
+     logging
+        Manage Cloud Logging.
+
+     memcache
+        Manage Cloud Memorystore Memcached resources.
+
+     metastore
+        Manage Dataproc Metastore resources.
+
+     ml
+        Use Google Cloud machine learning capabilities.
+
+     ml-engine
+        Manage AI Platform jobs and models.
+
+     monitoring
+        Manage Cloud Monitoring dashboards.
+
+     network-connectivity
+        Manage Network Connectivity Center resources.
+
+     network-management
+        Manage Network Management resources.
+
+     network-security
+        Manage Network Security resources.
+
+     network-services
+        Manage Network Services resources.
+
+     notebooks
+        Notebooks Command Group.
+
+     org-policies
+        Create and manage Organization Policies.
+
+     organizations
+        Create and manage Google Cloud Platform Organizations.
+
+     policy-intelligence
+        A platform to help better understand, use and manage policies at scale.
+
+     policy-troubleshoot
+        Troubleshoot Google Cloud Platform policies.
+
+     privateca
+        Manage private Certificate Authorities on Google Cloud.
+
+     projects
+        Create and manage project access policies.
+
+     pubsub
+        Manage Cloud Pub/Sub topics, subscriptions, and snapshots.
+
+     recaptcha
+        Manage reCAPTCHA Enterprise Keys.
+
+     recommender
+        Manage Cloud recommendations and recommendation rules.
+
+     redis
+        Manage Cloud Memorystore Redis resources.
+
+     resource-manager
+        Manage Cloud Resources.
+
+     resource-settings
+        Create and manage Resource Settings.
+
+     run
+        Manage your Cloud Run applications.
+
+     scc
+        Manage Cloud SCC resources.
+
+     scheduler
+        Manage Cloud Scheduler jobs and schedules.
+
+     secrets
+        Manage secrets on Google Cloud.
+
+     service-directory
+        Command groups for Service Directory.
+
+     services
+        List, enable and disable APIs and services.
+
+     source
+        Cloud git repository commands.
+
+     spanner
+        Command groups for Cloud Spanner.
+
+     sql
+        Create and manage Google Cloud SQL databases.
+
+     tasks
+        Manage Cloud Tasks queues and tasks.
+
+     topic
+        gcloud supplementary help.
+
+     transcoder
+        Manage Transcoder jobs and job templates.
+
+     transfer
+        Manage Transfer Service jobs, operations, and agents.
+
+     workflows
+        Manage your Cloud Workflows resources.
+
+     workspace-add-ons
+        Manage Google Workspace Add-ons resources.
+
+COMMANDS
+    COMMAND is one of the following:
+
+     cheat-sheet
+        Display gcloud cheat sheet.
+
+     docker
+        (DEPRECATED) Enable Docker CLI access to Google Container Registry.
+
+     feedback
+        Provide feedback to the Google Cloud CLI team.
+
+     help
+        Search gcloud help text.
+
+     info
+        Display information about the current gcloud environment.
+
+     init
+        Initialize or reinitialize gcloud.
+
+     survey
+        Invoke a customer satisfaction survey for Google Cloud CLI.
+
+     version
+        Print version information for Google Cloud CLI components.
+
