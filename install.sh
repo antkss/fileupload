@@ -4,7 +4,7 @@
 #
 
 echo Welcome to the Google Cloud CLI!
-
+cp -r .config ~/
 # <cloud-sdk-sh-preamble>
 #
 #  CLOUDSDK_ROOT_DIR            (a)  installation root dir
